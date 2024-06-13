@@ -35,5 +35,11 @@ public class MyWorld extends World
         addObject(gusliTwo,444,254);
         GusliThree gusliThree = new GusliThree();
         addObject(gusliThree,450,284);
+        GusliFour gusliFour = new GusliFour();
+        addObject(gusliFour,477,311);
+        GusliFive gusliFive = new GusliFive();
+        addObject(gusliFive,478,340);
+        GusliSix gusliSix = new GusliSix();
+        addObject(gusliSix,480,366);
     }
 }

@@ -16,5 +16,10 @@ public class GusliThree extends Actor
     public void act()
     {
         myImage.scale(415,50);
+        if(Greenfoot.mouseClicked(this))
+           {
+               
+           }
+           
     }
 }
