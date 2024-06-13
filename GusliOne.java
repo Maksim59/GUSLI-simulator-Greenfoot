@@ -13,6 +13,7 @@ public class GusliOne extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     GreenfootImage myImage = getImage();
+    GreenfootSound mySound = new GreenfootSound("sounds/note1.mp3");
     public void act()
     {
         myImage.scale(375,50);
