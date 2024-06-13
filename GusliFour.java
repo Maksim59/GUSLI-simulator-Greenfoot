@@ -14,5 +14,11 @@ public class GusliFour extends Actor
      */
     public void act()
     {
+        setRotation(2);
+        if(Greenfoot.mouseClicked(this))
+           {
+               
+           }
+           
     }
 }

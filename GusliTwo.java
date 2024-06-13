@@ -17,5 +17,10 @@ public class GusliTwo extends Actor
     {
         myImage.scale(400,50);
         setRotation(358); 
+        if(Greenfoot.mouseClicked(this))
+           {
+               
+           }
+           
     }
 }
