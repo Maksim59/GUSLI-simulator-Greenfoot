@@ -1,19 +1,19 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 /**
- * Write a description of class Gusli here.
+ * Write a description of class GusliFive here.
  * 
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Gusli extends Actor
+public class GusliFive extends Actor
 {
     /**
-     * Act - do whatever the Gusli wants to do. This method is called whenever
+     * Act - do whatever the GusliFive wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     public void act()
     {
-        
+           
     }
 }

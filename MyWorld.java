@@ -17,9 +17,23 @@ public class MyWorld extends World
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1000, 600, 1); 
-        
+
         Gusli gusli = new Gusli();
-        
         addObject(gusli, 500,300);
+        prepare();
+    }
+    
+    /**
+     * Prepare the world for the start of the program.
+     * That is: create the initial objects and add them to the world.
+     */
+    private void prepare()
+    {
+        GusliOne gusliOne = new GusliOne();
+        addObject(gusliOne,430,222);
+        GusliTwo gusliTwo = new GusliTwo();
+        addObject(gusliTwo,444,254);
+        GusliThree gusliThree = new GusliThree();
+        addObject(gusliThree,450,284);
     }
 }
