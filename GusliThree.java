@@ -13,13 +13,18 @@ public class GusliThree extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     GreenfootImage myImage = getImage();
+    GreenfootSound mySound = new GreenfootSound("sounds/note3.mp3");
     public void act()
     {
         myImage.scale(415,50);
         if(Greenfoot.mouseClicked(this))
            {
-               
+               mySound.play();
            }
+        if(Greenfoot.isKeyDown("e"))
+        {
+            mySound.play();
+        }
            
     }
 }

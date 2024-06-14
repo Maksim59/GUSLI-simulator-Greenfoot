@@ -41,5 +41,22 @@ public class MyWorld extends World
         addObject(gusliFive,478,340);
         GusliSix gusliSix = new GusliSix();
         addObject(gusliSix,480,366);
+        Label label = new Label("Q", 30);
+        addObject(label,660,195);
+        Label label2 = new Label("W", 30);
+        addObject(label2,680,232);
+        Label label3 = new Label("E", 30);
+        addObject(label3,710,270);
+        Label label4 = new Label("R", 30);
+        addObject(label4,737,311);
+        Label label5 = new Label("T", 30);
+        addObject(label5,760,343);
+        Label label6 = new Label("Y", 30);
+        addObject(label6,791,389);
+        Label label7 = new Label("U - For Chords", 50);
+        addObject(label7,492,494);
+        removeObject(label7);
+        Label label8 = new Label("Gusli - Simulation", 70);
+        addObject(label8,487,77);
     }
 }

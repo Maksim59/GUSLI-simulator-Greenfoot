@@ -13,13 +13,23 @@ public class GusliFive extends Actor
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
     GreenfootImage myImage = getImage();
+    GreenfootSound mySound = new GreenfootSound("sounds/note5.mp3");
+    GreenfootSound whiteSpace = new GreenfootSound("sounds/whiteSpace.mp3");
     public void act()
     {
            setRotation(3);
            if(Greenfoot.mouseClicked(this))
            {
-               
+               mySound.play();
            }
+           
+        if(Greenfoot.isKeyDown("t"))
+        {
+            mySound.play();
+        }
+
+        
+           
            
     }
 }

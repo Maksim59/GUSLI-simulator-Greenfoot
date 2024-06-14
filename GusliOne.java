@@ -20,8 +20,12 @@ public class GusliOne extends Actor
         setRotation(356);    
         if(Greenfoot.mouseClicked(this))
            {
-               
+               mySound.play();
            }
+        if(Greenfoot.isKeyDown("q"))
+        {
+            mySound.play();
+        }
            
     }
 }
